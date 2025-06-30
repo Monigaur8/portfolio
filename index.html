@@ -10,7 +10,7 @@
 
   <!-- Favicons -->
   <link href="img/favicon.jpg" rel="icon" type="image/png">
-  
+
   <!-- Main CSS File -->
   <link href="css/main.css" rel="stylesheet">
   <link rel="stylesheet" href="vendor/themify-icons/themify-icons.css">
@@ -26,7 +26,7 @@
 
 <body class="index-page">
 
- 
+
   <div id="travelhead"></div>
   <main class="main">
     <!-- Hero Section -->
@@ -63,7 +63,7 @@
             <div class="mt-2 mb-4 about_text">
 
               <div class="">
-		      <!--
+                <!--
                 <p>I am working as a Joint Director (IT) at the National Informatics Centre. During my tenure in NIC, i have worked on multiple technologies 
                   and handled important projects including National Knowledge Network (NKN), IPv6 implementation across NICNET, 
                   Setting up ANYCAST DNS Services, and wireless services across the NICNET. 
@@ -86,191 +86,103 @@
     <!-- latestPhotos Section -->
     <section class="portfolio section">
       <div class="container section-title aos-init aos-animate" data-aos="fade-up">
-        <h6 class="sectionHeading-text">Latest from <span class="travel-text1"><span class="textSpan1">G K</span></span></h6>
+        <h6 class="sectionHeading-text">Latest from <span class="travel-text1"><span class="textSpan1">G K</span></span>
+        </h6>
       </div>
+
+      <!--Start Folder Name here-->
+      <div style="display: none;">
+        <ul id="folder-data">
+          <li id="family">family</li>
+          <li id="team">team</li>
+          <li id="lbsnaa">lbsnaa</li>
+          <li id="banner">lbsnaa</li>
+        </ul>
+      </div>
+      <!-- End Folder Name here-->
+
       <div class="container">
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".family-pic">Family</li>
-            <li data-filter=".friends-pic">Friends</li>
-            <li data-filter=".office-pic">Office</li>
+            <li data-filter=".team-pic">Friends</li>
+            <li data-filter=".lbsnaa-pic">LBSNAA</li>
+            <li data-filter=".banner-pic">Banner</li>
           </ul><!-- End Portfolio Filters -->
 
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" id="showimg">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item family-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
 
-              </div>
-            </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item friends-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item office-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item family-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item friends-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item office-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item family-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3"
-                  data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item friends-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3"
-                  data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item office-pic">
-              <img src="img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid img-width" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2"
-                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
-                    class="bi bi-zoom-in"></i></a>
-              </div>
-            </div><!-- End Portfolio Item -->
-            
           </div><!-- End Portfolio Container -->
         </div>
       </div>
     </section><!-- /latestPhotos Section -->
- <!-- TravelDiaries Section -->
-  
- <section class="services section">
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h6 class="sectionHeading-text">Travel Diaries</h6>
-  </div><!-- End Section Title -->
+    <!-- TravelDiaries Section -->
 
-  <div class="container">
-    <div class="row gy-4">
-      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <article class="card album-1 card_album">
-          
-          <div class="album__content">
-            <div class="album__content--container">
-              <h2 class="album__title">LBSNAA</h2>
-              <div id="text-box-1" class="album__description mt-4"></div>
-            </div>
-            <button class="album__button"><a href="travelGuides/lbsnaa-guide.html">Read more</a></button>
-          </div>
-        </article>
-      </div><!-- End Service Item -->
+    <section class="services section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h6 class="sectionHeading-text">Travel Diaries</h6>
+      </div><!-- End Section Title -->
 
-      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <article class="card album-2 card_album">
-          <div class="album__content">
-            <div class="album__content--container">
-              <h2 class="album__title">SANOG 41</h2>
-              <div id="text-box-2" class="album__description mt-4"></div>      
-            </div>
-            <button class="album__button"><a href="travelGuides/SANOG-guide.html">Read more</a></button>
-          </div>
-        </article>
-      </div><!-- End Service Item -->
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="card album-1 card_album">
 
-      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <article class="card album-3 card_album">
-          <div class="album__content">
-            <div class="album__content--container">
-              <h2 class="album__title">Romania</h2>
-              <div id="text-box-3" class="album__description mt-4"></div>
-            </div>
-            <button class="album__button"><a href="travelGuides/travel-guides.html">Read more</a></button>
-          </div>
-        </article>
-      </div><!-- End Service Item -->
+              <div class="album__content">
+                <div class="album__content--container">
+                  <h2 class="album__title">LBSNAA</h2>
+                  <div id="text-box-1" class="album__description mt-4"></div>
+                </div>
+                <button class="album__button"><a href="travelGuides/lbsnaa-guide.html">Read more</a></button>
+              </div>
+            </article>
+          </div><!-- End Service Item -->
 
-      <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <article class="card album-4 card_album">
-          <div class="album__content">
-            <div class="album__content--container">
-              <h2 class="album__title">Fiji</h2>
-              <div id="text-box-4" class="album__description mt-4"></div>
-            </div>
-            <button class="album__button"><a href="travel-guides.html">Read more</a></button>
-          </div>
-        </article>
-      </div><!-- End Service Item -->
-    </div>
-  </div>
-  <button class="button_arr text-center mt-4"><a href="more-guides.html">More Guides</a>
-  </button>
-</section>
-<!-- /TravelDiaries Section -->
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="card album-2 card_album">
+              <div class="album__content">
+                <div class="album__content--container">
+                  <h2 class="album__title">SANOG 41</h2>
+                  <div id="text-box-2" class="album__description mt-4"></div>
+                </div>
+                <button class="album__button"><a href="travelGuides/SANOG-guide.html">Read more</a></button>
+              </div>
+            </article>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article class="card album-3 card_album">
+              <div class="album__content">
+                <div class="album__content--container">
+                  <h2 class="album__title">Romania</h2>
+                  <div id="text-box-3" class="album__description mt-4"></div>
+                </div>
+                <button class="album__button"><a href="travelGuides/travel-guides.html">Read more</a></button>
+              </div>
+            </article>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <article class="card album-4 card_album">
+              <div class="album__content">
+                <div class="album__content--container">
+                  <h2 class="album__title">Fiji</h2>
+                  <div id="text-box-4" class="album__description mt-4"></div>
+                </div>
+                <button class="album__button"><a href="travel-guides.html">Read more</a></button>
+              </div>
+            </article>
+          </div><!-- End Service Item -->
+        </div>
+      </div>
+      <button class="button_arr text-center mt-4"><a href="more-guides.html">More Guides</a>
+      </button>
+    </section>
+    <!-- /TravelDiaries Section -->
     <!-- Destinations-timeline -->
     <section class="section">
       <div class="container" data-aos="fade-up">
@@ -359,7 +271,7 @@
         </div>
       </div>
     </section><!-- /TravelAction Section -->
-   
+
   </main>
   <div id="travelfooter"></div>
 
@@ -371,10 +283,37 @@
   <div id="preloader"></div>
 
   <script src="js/jquery.min.js" crossorigin="anonymous"></script>
-  
+
   <script>
     $('#travelhead').load('include/header.html');
-    $('#travelfooter').load('include/footer.html');    
+    $('#travelfooter').load('include/footer.html');
+
+    function showfolder(folderData, folderId) {
+      var folder = folderData;
+      // console.log(folder);
+      $.ajax({
+        url: folder,
+        success: function (data) {
+          // console.log(data);
+          $(data).find("a").attr("href", function (i, val) {
+            if (val.match(/\.(jpe?g|png|gif)$/)) {
+              var html = "<div class='col-lg-4 col-md-6 portfolio-item isotope-item " + folderId + "-pic'>" + " <img src='" + val + "' class='img-fluid img-width' >" + "<div class='portfolio-info'>" + "<h4 style='text-transform: capitalize;'>" + folderId + "</h4>" + "<a href='" + val + "' title='App 1' data-gallery='portfolio-gallery-app' class='glightbox preview-link'><i class='bi bi-zoom-in'></i></a></div></div>"
+              $("#showimg").append(html);
+            }
+          });
+        }
+      });
+    }
+
+    $("#folder-data li").each(function () {
+      var getId = $(this).attr('id');
+      var folder = `/img/${getId}/`;
+      // console.log(folder);
+      showfolder(folder, getId)
+    })
+
+
+
   </script>
 
 
@@ -382,10 +321,10 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/aos/aos.js"></script>
   <script src="vendor/swiper/swiper.min.js"></script>
-  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.js"></script>
   <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
- 
+
   <script>
     // timeline JS
     var timelineSwiper = new Swiper('.timeline .swiper-container', {
@@ -407,8 +346,10 @@
       }
     });
 
+
+
   </script>
-   <!-- Main JS File -->
+  <!-- Main JS File -->
   <script src="js/main.js"></script>
   <script src="travel_page_include/travelPages.js" crossorigin="anonymous"></script>
 </body>
