@@ -90,7 +90,7 @@ p{
 .header .travelImg span {
   width: 150px;
   height: 80px;
-  background-image: url("../img/logo.png");
+  background-image: url("../img/logo3.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -163,7 +163,7 @@ p{
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: #444b2c;
+  --background-color: #ebebeb;
 
 }
 
